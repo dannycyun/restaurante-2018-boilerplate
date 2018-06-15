@@ -1,9 +1,13 @@
 #home-section {
-    height:100vh;
+    height:85vh;
+    min-height: 500px;
+    max-height: 600px;
     background: url('../img/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 #home-section h1, #home-section p {
@@ -11,5 +15,17 @@
     margin-bottom:20px;
 }
 
+.navbar-brand h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+#reservation-section {
+  background-color: #eeeeee;
+}
+
 @media only screen and (min-width : 992px) {
+  #home-section {
+    min-height: 500px;
+  }
 }
